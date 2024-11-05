@@ -155,7 +155,10 @@ MonoBehaviour:
       pathPrefix: Backgrounds/MainBackground
       guid: 473d90fa00683f84d9b03a0433eeed65
   - Id: Audio
-    Resources: []
+    Resources:
+    - name: Background
+      pathPrefix: Audio
+      guid: 28f670114ca0a2e40b5c11e5854e1ffb
   - Id: Backgrounds/40971577-8f2d-4eba-957d-9e23ec35571c
     Resources: []
   - Id: Characters/cb343afd-0016-460b-9170-d08e3a392b30
