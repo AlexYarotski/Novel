@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/NaninovelStarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/NaninovelStarter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Start.nani" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <updated>1730809872391</updated>
       <workItem from="1730809886213" duration="1436000" />
       <workItem from="1730814317854" duration="4000" />
-      <workItem from="1730816743209" duration="4552000" />
+      <workItem from="1730816743209" duration="5497000" />
     </task>
     <servers />
   </component>

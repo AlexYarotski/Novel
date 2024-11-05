@@ -17,20 +17,6 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 74
-      height: 77
-  - scriptName: Start01
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 87
-      height: 77
-  - scriptName: Start02
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 89
-      height: 77
+      y: 1
+      width: 176
+      height: 173
