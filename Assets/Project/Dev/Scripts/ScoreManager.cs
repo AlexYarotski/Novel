@@ -1,19 +1,41 @@
-public class ScoreManager 
+using UnityEngine;
+using TMPro;
+
+public class ScoreManager : MonoBehaviour
 {
-    private int currentScore;
+    public static ScoreManager Instance { get; private set; }
     
-    public ScoreManager()
+    private int _currentScore;
+    [SerializeField] private TMP_Text scoreText;
+
+    private void Awake()
     {
-        currentScore = 0;
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void AddScore(int amount)
     {
-        currentScore += amount;
+        _currentScore += amount;
+        UpdateScoreUI();
     }
 
     public int GetScore()
     {
-        return currentScore;
+        return _currentScore;
+    }
+
+    private void UpdateScoreUI()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = $"Score: {_currentScore}";
+        }
     }
 }

@@ -8,8 +8,7 @@ public class AddScoreCommand : Command
 
     public override UniTask ExecuteAsync (AsyncToken asyncToken = default)
     {
-        var scoreManager = new ScoreManager(); // Или получайте его через DI, если это необходимо.
-        scoreManager.AddScore(Amount);
+        ScoreManager.Instance.AddScore(Amount);
         return UniTask.CompletedTask;
     }
 }
