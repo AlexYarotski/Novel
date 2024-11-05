@@ -144,3 +144,27 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: Prolog
+      pathPrefix: Scripts
+      guid: c8836337a64174d48a660acaa8d7de60
+  - Id: Backgrounds/67df40c7-a26e-4c5d-9e1b-d856ad823146
+    Resources:
+    - name: Background
+      pathPrefix: Backgrounds/MainBackground
+      guid: 473d90fa00683f84d9b03a0433eeed65
+  - Id: Audio
+    Resources: []
+  - Id: Backgrounds/40971577-8f2d-4eba-957d-9e23ec35571c
+    Resources: []
+  - Id: Characters/cb343afd-0016-460b-9170-d08e3a392b30
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Lola
+      guid: 4da07c8ed2eda5240a7a0ebd4c56d5cc
+  - Id: Characters/67cd4ed2-fe67-4829-a8cb-be59124a885e
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Max
+      guid: 4da07c8ed2eda5240a7a0ebd4c56d5cc
