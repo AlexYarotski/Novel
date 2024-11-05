@@ -129,9 +129,6 @@ MonoBehaviour:
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
-    - name: TitleUI
-      pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
@@ -147,6 +144,9 @@ MonoBehaviour:
     - name: Score
       pathPrefix: UI
       guid: 1406c568f6b02f241ae03317890f476a
+    - name: FindPair
+      pathPrefix: UI
+      guid: 465ce35082a830a4da2db59d6dd6b189
   - Id: Scripts
     Resources:
     - name: Start
@@ -179,3 +179,5 @@ MonoBehaviour:
     - name: CustomDialogue
       pathPrefix: TextPrinters
       guid: c36c7a89b7d62df44ade727158af0e70
+  - Id: Unlockables
+    Resources: []

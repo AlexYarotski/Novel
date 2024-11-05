@@ -1,7 +1,18 @@
-namespace Project.Dev.Scripts
+using Naninovel;
+using UnityEngine;
+
+[CommandAlias("startFindPairGame")]
+public class StartFindPairGameCommand : Command
 {
-    public class StartFindPairGameCommand
+    public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
     {
+        GameObject findPairGame = GameObject.Find("FindPairGame");
         
+        if (findPairGame != null)
+        {
+            findPairGame.SetActive(true);
+        }
+        
+        return UniTask.CompletedTask;
     }
 }

@@ -1,6 +1,7 @@
 @bgm Background volume:0.3 loop:true
 @back Background
 @showUI Score
+@showUI FindPair
 
 @char Lola look:Right
 @char Max

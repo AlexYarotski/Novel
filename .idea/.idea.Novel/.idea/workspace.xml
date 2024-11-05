@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/NaninovelStarter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/NaninovelStarter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/UIConfiguration.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Start.nani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +42,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "FindMatch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,10 +88,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15312">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15312" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -98,7 +109,8 @@
       <updated>1730809872391</updated>
       <workItem from="1730809886213" duration="1436000" />
       <workItem from="1730814317854" duration="4000" />
-      <workItem from="1730816743209" duration="5497000" />
+      <workItem from="1730816743209" duration="8528000" />
+      <workItem from="1730833334529" duration="1208000" />
     </task>
     <servers />
   </component>
@@ -109,5 +121,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs</url>
+          <line>59</line>
+          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\Card.cs" initialLine="59" containingFunctionPresentation="Method 'OnClick'">
+            <startOffsets>
+              <option value="983" />
+            </startOffsets>
+            <endOffsets>
+              <option value="990" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
