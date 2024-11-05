@@ -146,9 +146,15 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: Prolog
+    - name: Start
       pathPrefix: Scripts
       guid: c8836337a64174d48a660acaa8d7de60
+    - name: Start01
+      pathPrefix: Scripts
+      guid: 951928ba0ca75314582a89aeee0c3a9f
+    - name: Start02
+      pathPrefix: Scripts
+      guid: ec865acf48564f646b29295fcaaf0e2f
   - Id: Backgrounds/67df40c7-a26e-4c5d-9e1b-d856ad823146
     Resources:
     - name: Background
@@ -167,4 +173,4 @@ MonoBehaviour:
     Resources:
     - name: Default
       pathPrefix: Characters/Max
-      guid: 4da07c8ed2eda5240a7a0ebd4c56d5cc
+      guid: a5b7f60d6369d054abe43514e3842198

@@ -13,10 +13,24 @@ MonoBehaviour:
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
   NodesState:
-  - scriptName: Prolog
+  - scriptName: Start
     position:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 83
+      width: 74
+      height: 77
+  - scriptName: Start01
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 77
+  - scriptName: Start02
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
       height: 77
