@@ -23,6 +23,8 @@ public class FindPairGame : MonoBehaviour
 
     private void Start()
     {
+        gameObject.SetActive(false);
+        
         _layoutGroup = GetComponent<GridLayoutGroup>();
         
         InitializeCards();

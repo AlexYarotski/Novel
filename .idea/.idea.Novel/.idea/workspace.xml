@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/EngineConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Start.nani.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,7 @@
       <workItem from="1730809886213" duration="1436000" />
       <workItem from="1730814317854" duration="4000" />
       <workItem from="1730816743209" duration="8528000" />
-      <workItem from="1730833334529" duration="1208000" />
+      <workItem from="1730833334529" duration="2962000" />
     </task>
     <servers />
   </component>

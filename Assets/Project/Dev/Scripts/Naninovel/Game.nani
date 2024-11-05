@@ -1,0 +1,6 @@
+@back Game
+@showUI Score
+
+@startFindPairGame
+
+@stop
