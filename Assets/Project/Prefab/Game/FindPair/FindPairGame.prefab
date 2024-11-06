@@ -57,10 +57,10 @@ MonoBehaviour:
   _cardImages:
   - {fileID: 21300000, guid: 6a27722a4b85a2d4c91f395265d201fe, type: 3}
   - {fileID: 21300000, guid: 05b4b7e10d8dd944d8f13e385d9c813a, type: 3}
-  - {fileID: 21300000, guid: 9c9ebc449a4f39d4f98537c3d9516c32, type: 3}
-  - {fileID: 21300000, guid: 0558eaefe426d2d4bb39209e203b77f8, type: 3}
-  - {fileID: 21300000, guid: 80f1c1f04a680af45b24455171e30fba, type: 3}
-  - {fileID: 21300000, guid: 5a794833b4eb1264e913415f2d25c975, type: 3}
+  - {fileID: 21300000, guid: 3789dde0cfa834648815ec6836dd7d15, type: 3}
+  - {fileID: 21300000, guid: 7cf43b05950442d49b75fe9a014ec29a, type: 3}
+  - {fileID: 21300000, guid: 1ec505067e454144fbcb60d96240c211, type: 3}
+  - {fileID: 21300000, guid: b269c6741ada90e4b918807a8b0b3d91, type: 3}
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 21300000, guid: 560a8198ec38cba438edbeb6b73f3069, type: 3}
   _rows: 4

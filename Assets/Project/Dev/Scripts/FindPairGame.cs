@@ -9,6 +9,7 @@ public class FindPairGame : MonoBehaviour
 {
     public static event Action Completed;
     
+    private readonly List<Card> SelectedCards = new List<Card>();
     private readonly List<Card> CardList = new List<Card>();
 
     [SerializeField]
@@ -47,12 +48,15 @@ public class FindPairGame : MonoBehaviour
             return;
         }
 
-        List<Sprite> images = new List<Sprite>(_cardImages);
-        images.AddRange(_cardImages);
-
-        images = images.GetRange(0, (_rows * _columns) / 2);
-        images.AddRange(images);
+        List<Sprite> images = new List<Sprite>();
+        for (int i = 0; i < (_rows * _columns) / 2; i++)
+        {
+            images.Add(_cardImages[i]);
+            images.Add(_cardImages[i]);
+        }
         
+        ShuffleList(images);
+
         for (int i = 0; i < _rows * _columns; i++)
         {
             var cardObject = Instantiate(_cardPrefab, transform);
@@ -76,24 +80,22 @@ public class FindPairGame : MonoBehaviour
 
     private void ShuffleList<T>(List<T> list)
     {
-        for (int i = 0; i < list.Count; i++)
+        for (int i = list.Count - 1; i > 0; i--)
         {
-            var temp = list[i];
-            int randomIndex = Random.Range(0, list.Count);
-            list[i] = list[randomIndex];
-            list[randomIndex] = temp;
+            int randomIndex = Random.Range(0, i + 1);
+            (list[i], list[randomIndex]) = (list[randomIndex], list[i]);
         }
     }
-
+    
     private void Selected(Card selectedCard)
     {
-        if (_firstCard == null)
+        if (SelectedCards.Contains(selectedCard))
+            return;
+
+        SelectedCards.Add(selectedCard);
+
+        if (SelectedCards.Count == 2)
         {
-            _firstCard = selectedCard;
-        }
-        else if (_secondCard == null)
-        {
-            _secondCard = selectedCard;
             StartCoroutine(CheckMatch());
         }
     }
@@ -102,11 +104,10 @@ public class FindPairGame : MonoBehaviour
     {
         var delay = new WaitForSeconds(_openDelay);
 
-        var first = _firstCard;
-        var second = _secondCard;
-        
-        _firstCard = null;
-        _secondCard = null;
+        var first = SelectedCards[0];
+        var second = SelectedCards[1];
+
+        SelectedCards.Clear();
 
         if (first.GetImage() == second.GetImage())
         {
@@ -120,10 +121,10 @@ public class FindPairGame : MonoBehaviour
         else
         {
             yield return delay;
-            
+        
             first.Reset();
             second.Reset();
-        }        
+        }
     }
 
     private void GameOver()

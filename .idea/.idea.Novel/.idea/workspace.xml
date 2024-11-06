@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Game.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Game.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Main.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Max.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Max.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/AddScoreCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/AddScoreCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/CheckScoreCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/CheckScoreCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/EndFindPairGameCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/EndFindPairGameCommand.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Game.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Game.nani" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/StartFindPairGameCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/StartFindPairGameCommand.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Card.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Card.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +101,7 @@
       <workItem from="1730814317854" duration="4000" />
       <workItem from="1730816743209" duration="8528000" />
       <workItem from="1730833334529" duration="2962000" />
-      <workItem from="1730880028396" duration="5511000" />
+      <workItem from="1730880028396" duration="6666000" />
     </task>
     <servers />
   </component>
@@ -156,32 +128,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs</url>
-          <line>18</line>
-          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\FindPairGameUI.cs" initialLine="17" containingFunctionPresentation="Method 'FadeOutCoroutine'">
-            <startOffsets>
-              <option value="489" />
-            </startOffsets>
-            <endOffsets>
-              <option value="512" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs</url>
-          <line>31</line>
-          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\FindPairGameUI.cs" initialLine="30" containingFunctionPresentation="Method 'FadeOutCoroutine'">
-            <startOffsets>
-              <option value="855" />
-            </startOffsets>
-            <endOffsets>
-              <option value="884" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
