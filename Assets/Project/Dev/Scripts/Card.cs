@@ -37,22 +37,18 @@ public class Card : MonoBehaviour
     public void Reset()
     {
         Hide();
-        _button.interactable = true;
     }
-
-    public void Disable()
-    {
-        _button.interactable = false;
-    }
-
+    
     private void Show()
     {
-        _imageComponent.enabled = true;
+        _imageComponent.sprite = _image;
+        _button.enabled = false;
     }
 
     private void Hide()
     {
         _imageComponent.sprite = _back;
+        _button.enabled = true;
     }
     
     private void OnClick()

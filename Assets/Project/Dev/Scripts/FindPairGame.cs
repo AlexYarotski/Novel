@@ -1,12 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class FindPairGame : MonoBehaviour
 {
-    private readonly List<Card> CardList = new List<Card>();
+    public static event Action Completed;
     
+    private readonly List<Card> CardList = new List<Card>();
+
+    [SerializeField]
+    private float _openDelay;
+    
+    [Header("Card")]
     [SerializeField]
     private Card _cardPrefab;
     [SerializeField]
@@ -92,13 +100,17 @@ public class FindPairGame : MonoBehaviour
 
     private IEnumerator CheckMatch()
     {
-        yield return new WaitForSeconds(1f);
+        var delay = new WaitForSeconds(_openDelay);
 
-        if (_firstCard.GetImage() == _secondCard.GetImage())
+        var first = _firstCard;
+        var second = _secondCard;
+        
+        _firstCard = null;
+        _secondCard = null;
+
+        if (first.GetImage() == second.GetImage())
         {
             _pairsFound++;
-            _firstCard.Disable();
-            _secondCard.Disable();
 
             if (_pairsFound == _cardImages.Count)
             {
@@ -107,16 +119,15 @@ public class FindPairGame : MonoBehaviour
         }
         else
         {
-            _firstCard.Reset();
-            _secondCard.Reset();
-        }
-
-        _firstCard = null;
-        _secondCard = null;
+            yield return delay;
+            
+            first.Reset();
+            second.Reset();
+        }        
     }
 
     private void GameOver()
     {
-        
+        Completed?.Invoke();
     }
 }

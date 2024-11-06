@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(transform.root.gameObject);
     }
 
     public void AddScore(int amount)

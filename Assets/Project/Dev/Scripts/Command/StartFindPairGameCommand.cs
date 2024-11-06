@@ -8,9 +8,8 @@ public class StartFindPairGameCommand : Command
 {
     public override UniTask ExecuteAsync (AsyncToken asyncToken = default)
     {
-        // Попытка найти UI объект по его имени в UI Configuration.
         var uiManager = Engine.GetService<IUIManager>();
-        var findPairGameUI = uiManager.GetUI<FindPairGameUI>(); // Укажите точное имя из UI Configurations
+        var findPairGameUI = uiManager.GetUI<FindPairGameUI>(); 
 
         if (findPairGameUI != null)
         {

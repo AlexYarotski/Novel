@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 351407599510573959}
   - component: {fileID: 5262186236546123008}
   m_Layer: 5
-  m_Name: FindPair
+  m_Name: FindPairGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,10 +52,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7f470a3638445eade1038fc34f2bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _openDelay: 0.5
   _cardPrefab: {fileID: 5265319943088442599, guid: 75497e6cdca56c04ca70fc323f425125, type: 3}
   _cardImages:
-  - {fileID: 21300000, guid: ef1f54a17b7d7b3478ae8f05cec8ce66, type: 3}
-  - {fileID: 21300000, guid: 2e32cc635c09dfe4a96c1c913b967526, type: 3}
+  - {fileID: 21300000, guid: 6a27722a4b85a2d4c91f395265d201fe, type: 3}
+  - {fileID: 21300000, guid: 05b4b7e10d8dd944d8f13e385d9c813a, type: 3}
   - {fileID: 21300000, guid: 9c9ebc449a4f39d4f98537c3d9516c32, type: 3}
   - {fileID: 21300000, guid: 0558eaefe426d2d4bb39209e203b77f8, type: 3}
   - {fileID: 21300000, guid: 80f1c1f04a680af45b24455171e30fba, type: 3}

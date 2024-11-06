@@ -1,6 +1,9 @@
 @back Game
-@showUI Score
 
 @startFindPairGame
+@endFindPairGame
+
+@addScore amount:50
 
 @stop
+

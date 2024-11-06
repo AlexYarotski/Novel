@@ -5,18 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/EditorResources.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/Resources/Naninovel/Configuration/BackgroundsConfiguration.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaninovelData/ScriptGraphState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Game.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Game.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Main.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Max.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Art/Sprite/Player.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/AddScoreCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/AddScoreCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/AddScoreCommand.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/CheckScoreCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/CheckScoreCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/CheckScoreCommand.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/EndFindPairGameCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/EndFindPairGameCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/EndFindPairGameCommand.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Game.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Game.nani" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Naninovel/Start.nani" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/StartFindPairGameCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/StartFindPairGameCommand.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/Command/StartFindPairGameCommand.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Card.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Card.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/FindPair.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +43,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7237cf7abef49bfbb552d7eb076e422174200/ec/e24b680a/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -37,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "FindMatch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FindMatch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Alex\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Alex\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Alex\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Alex\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Alex\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Alex\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe" />
@@ -85,10 +106,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15312">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13632">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15312" />
+      <option name="pid" value="13632" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -108,6 +129,7 @@
       <workItem from="1730814317854" duration="4000" />
       <workItem from="1730816743209" duration="8528000" />
       <workItem from="1730833334529" duration="2962000" />
+      <workItem from="1730880028396" duration="5511000" />
     </task>
     <servers />
   </component>
@@ -123,17 +145,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/Card.cs</url>
-          <line>59</line>
-          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\Card.cs" initialLine="59" containingFunctionPresentation="Method 'OnClick'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs</url>
+          <line>11</line>
+          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\FindPairGameUI.cs" initialLine="10" containingFunctionPresentation="Method 'FadeOutAllElements'">
             <startOffsets>
-              <option value="983" />
+              <option value="256" />
             </startOffsets>
             <endOffsets>
-              <option value="990" />
+              <option value="259" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs</url>
+          <line>18</line>
+          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\FindPairGameUI.cs" initialLine="17" containingFunctionPresentation="Method 'FadeOutCoroutine'">
+            <startOffsets>
+              <option value="489" />
+            </startOffsets>
+            <endOffsets>
+              <option value="512" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGameUI.cs</url>
+          <line>31</line>
+          <properties documentPath="C:\Users\Alex\Documents\Novel\Assets\Project\Dev\Scripts\FindPairGameUI.cs" initialLine="30" containingFunctionPresentation="Method 'FadeOutCoroutine'">
+            <startOffsets>
+              <option value="855" />
+            </startOffsets>
+            <endOffsets>
+              <option value="884" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
