@@ -7,9 +7,28 @@ namespace Project.Dev.Scripts
 {
     public class FindPairGameUI : CustomUI
     {
+        public void Enable()
+        {
+            gameObject.SetActive(true);
+            
+            var findPair = GetComponent<FindPairGame>();
+            findPair.Reset();
+            
+            Image[] images = GetComponentsInChildren<Image>(true);
+
+            foreach (var image in images)
+            {
+                image.gameObject.SetActive(true);
+                
+                var color = image.color;
+                color.a = 1f;
+                image.color = color;
+            }
+        }
+
         public void FadeOutAllElements(float duration = 1f)
         {
-            Image[] images = GetComponentsInChildren<Image>();
+            Image[] images = GetComponentsInChildren<Image>(true);
             StartCoroutine(FadeOutCoroutine(images, duration));
         }
 

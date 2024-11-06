@@ -13,7 +13,7 @@ public class StartFindPairGameCommand : Command
 
         if (findPairGameUI != null)
         {
-            findPairGameUI.gameObject.SetActive(true);
+            findPairGameUI.Enable();
         }
         else
         {

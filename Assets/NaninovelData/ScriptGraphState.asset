@@ -25,5 +25,12 @@ MonoBehaviour:
       serializedVersion: 2
       x: 297
       y: 107
-      width: 80
-      height: 77
+      width: 102
+      height: 101
+  - scriptName: Final
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 149
+      height: 149

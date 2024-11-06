@@ -1,6 +1,8 @@
 @back Main
 @bgm Start volume:0.3 loop:true
-@showUI Score
+@showUI ScoreUI
+
+@resetScore
 
 @char Lola look:Right
 @char Max look:Right

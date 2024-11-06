@@ -144,9 +144,12 @@ MonoBehaviour:
     - name: FindPairGame
       pathPrefix: UI
       guid: 465ce35082a830a4da2db59d6dd6b189
-    - name: Score
+    - name: ScoreUI
       pathPrefix: UI
       guid: 1406c568f6b02f241ae03317890f476a
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 4b121aa1be1b7e04480b452c595ff17a
   - Id: Scripts
     Resources:
     - name: Start
@@ -165,9 +168,12 @@ MonoBehaviour:
       guid: 473d90fa00683f84d9b03a0433eeed65
   - Id: Audio
     Resources:
-    - name: Background
+    - name: Start
       pathPrefix: Audio
       guid: 28f670114ca0a2e40b5c11e5854e1ffb
+    - name: Final
+      pathPrefix: Audio
+      guid: ac99b4cb4594ddc4e9585302e064c3a7
   - Id: Backgrounds/40971577-8f2d-4eba-957d-9e23ec35571c
     Resources:
     - name: Main
@@ -176,9 +182,6 @@ MonoBehaviour:
     - name: Game
       pathPrefix: Backgrounds/MainBackground
       guid: 4e2ad02da2ea13349abc7a2e03ce63b8
-    - name: Final
-      pathPrefix: Backgrounds/MainBackground
-      guid: 659957922d032ae4b88c32dcad3c6879
   - Id: Characters/cb343afd-0016-460b-9170-d08e3a392b30
     Resources:
     - name: Default

@@ -1,4 +1,4 @@
-@back Final
+@back Main
 @bgm Final
 
 @char Lola look:Right
@@ -9,8 +9,17 @@
 @if PlayerScore>=60
     Lola: "Поздравляю, ты достиг отличного результата!"
     Max: "Ты точно справился с задачей. Теперь можно отдыхать!"
+@goto .BackToMenu
 @stop
 @else
     Lola: "Ну, не получилось… Но ты попробовал, это уже хорошо."
     Max: "Ты постарался, но, похоже, что что-то пошло не так."
+@goto .BackToMenu
 @stop
+
+#BackToMenu
+@showUI TitleUI
+@stopBgm
+@hideUI ScoreUI
+
+

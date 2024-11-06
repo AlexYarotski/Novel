@@ -52,6 +52,19 @@ public class FindPairGame : MonoBehaviour
         ShuffleCards();
     }
 
+    public void Reset()
+    {
+        SelectedCards.Clear();
+        _pairsFound = 0;
+
+        foreach (var card in CardList)
+        {
+            card.Reset();
+        }
+        
+        ShuffleCards();
+    }
+
     private void InitializeCards()
     {
         List<Sprite> images = new List<Sprite>();

@@ -5,8 +5,10 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance { get; private set; }
     
+    [SerializeField] 
+    private TMP_Text scoreText;
+    
     private int _currentScore;
-    [SerializeField] private TMP_Text scoreText;
 
     private void Awake()
     {
@@ -29,6 +31,12 @@ public class ScoreManager : MonoBehaviour
     public int GetScore()
     {
         return _currentScore;
+    }
+
+    public void Reset()
+    {
+        _currentScore = 0;
+        UpdateScoreUI();
     }
 
     private void UpdateScoreUI()
