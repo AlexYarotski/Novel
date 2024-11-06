@@ -6,12 +6,13 @@ public class Card : MonoBehaviour
 {
     [SerializeField] 
     private Image _imageComponent;
-
     [SerializeField]
     private Sprite _back;
-    
     [SerializeField]
     private Button _button;
+
+    [SerializeField] 
+    private AudioSource _audioSource;
     
     private Sprite _image;
 
@@ -41,6 +42,7 @@ public class Card : MonoBehaviour
     
     private void Show()
     {
+        _audioSource.Play();
         _imageComponent.sprite = _image;
         _button.enabled = false;
     }
