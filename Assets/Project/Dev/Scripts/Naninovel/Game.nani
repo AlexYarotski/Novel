@@ -4,7 +4,8 @@
 @endFindPairGame
 
 @addScore amount:50
+
 @wait 1
-
+@stopBgm Start
+@goto Final
 @stop
-

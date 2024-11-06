@@ -1,5 +1,5 @@
 @back Main
-@bgm Background volume:0.3 loop:true
+@bgm Start volume:0.3 loop:true
 @showUI Score
 
 @char Lola look:Right
@@ -11,23 +11,26 @@ Max: Есть одна задача. Но ты сам решай, поможеш
 
 @choice Согласиться goto:.Agreement
 @choice Отказаться goto:.Refusal
-
 @stop
 
 # Agreement
 @addScore amount:10
 Lola: "Ладно, я помогу. Рассказывай, что делать."
-Max: "Вот это дух! Я знал, что могу на тебя положиться."
+Max: "Вот это дух! Я знал, что могу на тебя положиться. Для начала тебе нужно найти предметы, которые я оставил в комнате."
+Lola: "Кажется, я видела что-то похожее по пути сюда."
+Max: "Отлично! Только будь осторожна, они спрятаны непросто."
+
 @hidePrinter 
 @hideChars
 @goto Game
-@stop
 
 # Refusal
 @addScore amount:5
 Lola: "Извини, не думаю, что это моё дело."
 Max: "Ну что ж… Даже если ты не в восторге, всё равно справишься отлично, уверен."
+Lola: "Это почему?"
+Max: "Просто знаю. Ты найдёшь способ помочь, даже если сначала сомневаешься."
+
 @hidePrinter 
 @hideChars
 @goto Game
-@stop

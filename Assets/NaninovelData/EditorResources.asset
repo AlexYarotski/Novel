@@ -155,6 +155,9 @@ MonoBehaviour:
     - name: Game
       pathPrefix: Scripts
       guid: f30d7eeb4e140a546ad8d7ae25d827f1
+    - name: Final
+      pathPrefix: Scripts
+      guid: e3a7630e071c5944789cc56935bbbb09
   - Id: Backgrounds/67df40c7-a26e-4c5d-9e1b-d856ad823146
     Resources:
     - name: Background
@@ -173,6 +176,9 @@ MonoBehaviour:
     - name: Game
       pathPrefix: Backgrounds/MainBackground
       guid: 4e2ad02da2ea13349abc7a2e03ce63b8
+    - name: Final
+      pathPrefix: Backgrounds/MainBackground
+      guid: 659957922d032ae4b88c32dcad3c6879
   - Id: Characters/cb343afd-0016-460b-9170-d08e3a392b30
     Resources:
     - name: Default

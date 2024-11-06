@@ -1,0 +1,16 @@
+@back Final
+@bgm Final
+
+@char Lola look:Right
+@char Max look:Right
+
+@checkScore
+
+@if PlayerScore>=60
+    Lola: "Поздравляю, ты достиг отличного результата!"
+    Max: "Ты точно справился с задачей. Теперь можно отдыхать!"
+@stop
+@else
+    Lola: "Ну, не получилось… Но ты попробовал, это уже хорошо."
+    Max: "Ты постарался, но, похоже, что что-то пошло не так."
+@stop
