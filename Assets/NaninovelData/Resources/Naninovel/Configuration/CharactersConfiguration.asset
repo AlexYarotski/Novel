@@ -94,9 +94,9 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 2
-      DisplayName: 
+      DisplayName: Lola
       UseCharacterColor: 1
-      NameColor: {r: 0.8207547, g: 0.5229657, b: 0.15873085, a: 1}
+      NameColor: {r: 0.9528302, g: 0.5465716, b: 0.049439307, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 2
-      DisplayName: 
+      DisplayName: Max
       UseCharacterColor: 1
       NameColor: {r: 0.18657055, g: 0.735849, b: 0.14231041, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,5 +1,5 @@
-@bgm Background volume:0.3 loop:true
 @back Main
+@bgm Background volume:0.3 loop:true
 @showUI Score
 
 @char Lola look:Right

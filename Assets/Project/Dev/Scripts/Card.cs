@@ -43,6 +43,7 @@ public class Card : MonoBehaviour
     private void Show()
     {
         _audioSource.Play();
+        
         _imageComponent.sprite = _image;
         _button.enabled = false;
     }

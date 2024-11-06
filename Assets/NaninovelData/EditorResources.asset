@@ -172,7 +172,7 @@ MonoBehaviour:
       guid: 473d90fa00683f84d9b03a0433eeed65
     - name: Game
       pathPrefix: Backgrounds/MainBackground
-      guid: 5271bcea7980cc6439ba2a7ab3db1c3e
+      guid: 4e2ad02da2ea13349abc7a2e03ce63b8
   - Id: Characters/cb343afd-0016-460b-9170-d08e3a392b30
     Resources:
     - name: Default
