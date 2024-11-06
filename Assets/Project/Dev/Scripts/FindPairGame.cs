@@ -12,8 +12,15 @@ public class FindPairGame : MonoBehaviour
     private readonly List<Card> SelectedCards = new List<Card>();
     private readonly List<Card> CardList = new List<Card>();
 
+    [Header("Setting")]
     [SerializeField]
     private float _openDelay;
+    [SerializeField]
+    private int _valueForPair;
+    [SerializeField]
+    private Transform _boardTransform;
+    [SerializeField] 
+    private GridLayoutGroup _gridLayoutGroup;
     
     [Header("Card")]
     [SerializeField]
@@ -23,18 +30,23 @@ public class FindPairGame : MonoBehaviour
 
     [Header("Field")]
     [SerializeField]
-    private int _rows = 2;  [SerializeField]
-    private int _columns = 2; 
+    private int _rows; 
+    [SerializeField]
+    private int _columns; 
 
     private Card _firstCard, _secondCard;
-    private GridLayoutGroup _layoutGroup;
     private int _pairsFound = 0;
 
     private void Start()
     {
-        gameObject.SetActive(false);
+        if (!CheckInitializeCards())
+        {
+            Debug.LogError("Недостаточно изображений для создания пар!");
+            
+            return;
+        }
         
-        _layoutGroup = GetComponent<GridLayoutGroup>();
+        gameObject.SetActive(false);
         
         InitializeCards();
         ShuffleCards();
@@ -42,35 +54,26 @@ public class FindPairGame : MonoBehaviour
 
     private void InitializeCards()
     {
-        if (_cardImages.Count < (_rows * _columns) / 2)
+        List<Sprite> images = new List<Sprite>();
+
+        for (int i = 0; i < (_rows * _columns) / _valueForPair; i++)
         {
-            Debug.LogError("Недостаточно изображений для создания пар!");
-            return;
+            images.Add(_cardImages[i]);
+            images.Add(_cardImages[i]);
         }
 
-        List<Sprite> images = new List<Sprite>();
-        for (int i = 0; i < (_rows * _columns) / 2; i++)
-        {
-            images.Add(_cardImages[i]);
-            images.Add(_cardImages[i]);
-        }
-        
         ShuffleList(images);
 
         for (int i = 0; i < _rows * _columns; i++)
         {
-            var cardObject = Instantiate(_cardPrefab, transform);
-            var card = cardObject.GetComponent<Card>();
+            var card = Instantiate(_cardPrefab, _boardTransform);
             card.SetImage(images[i]);
             card.Selected += Selected;
             CardList.Add(card);
         }
 
-        if (_layoutGroup != null)
-        {
-            _layoutGroup.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
-            _layoutGroup.constraintCount = _columns;
-        }
+        _gridLayoutGroup.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        _gridLayoutGroup.constraintCount = _columns;
     }
 
     private void ShuffleCards()
@@ -94,7 +97,7 @@ public class FindPairGame : MonoBehaviour
 
         SelectedCards.Add(selectedCard);
 
-        if (SelectedCards.Count == 2)
+        if (SelectedCards.Count == _valueForPair)
         {
             StartCoroutine(CheckMatch());
         }
@@ -130,5 +133,10 @@ public class FindPairGame : MonoBehaviour
     private void GameOver()
     {
         Completed?.Invoke();
+    }
+
+    private bool CheckInitializeCards()
+    {
+        return _cardImages.Count >= (_rows * _columns) / _valueForPair;
     }
 }

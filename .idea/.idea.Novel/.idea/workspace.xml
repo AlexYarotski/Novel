@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d5cc7b-baac-4dae-aa3c-844b513420e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Novel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Dev/Scripts/FindPairGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefab/Game/FindPair/FindPairGame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefab/Game/FindPair/FindPairGame.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1730814317854" duration="4000" />
       <workItem from="1730816743209" duration="8528000" />
       <workItem from="1730833334529" duration="2962000" />
-      <workItem from="1730880028396" duration="6666000" />
+      <workItem from="1730880028396" duration="7341000" />
     </task>
     <servers />
   </component>

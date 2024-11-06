@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8622833853634603809}
   - component: {fileID: 3655607471889954096}
   - component: {fileID: 2421604173909971625}
-  - component: {fileID: 351407599510573959}
+  - component: {fileID: 9045439994923671379}
   - component: {fileID: 5262186236546123008}
   m_Layer: 5
   m_Name: FindPairGame
@@ -53,6 +53,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _openDelay: 0.5
+  _valueForPair: 2
+  _boardTransform: {fileID: 5968519113939415773}
+  _gridLayoutGroup: {fileID: 9045439994923671379}
   _cardPrefab: {fileID: 5265319943088442599, guid: 75497e6cdca56c04ca70fc323f425125, type: 3}
   _cardImages:
   - {fileID: 21300000, guid: 6a27722a4b85a2d4c91f395265d201fe, type: 3}
@@ -61,8 +64,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7cf43b05950442d49b75fe9a014ec29a, type: 3}
   - {fileID: 21300000, guid: 1ec505067e454144fbcb60d96240c211, type: 3}
   - {fileID: 21300000, guid: b269c6741ada90e4b918807a8b0b3d91, type: 3}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 21300000, guid: 560a8198ec38cba438edbeb6b73f3069, type: 3}
+  - {fileID: 21300000, guid: 559b2fd89f1ae734b9e0c3f94f3535bf, type: 3}
+  - {fileID: 21300000, guid: f3a2d444e5c063843b8fc3a1391e22fd, type: 3}
   _rows: 4
   _columns: 4
 --- !u!223 &3655607471889954096
@@ -105,7 +108,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &351407599510573959
+--- !u!114 &9045439994923671379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
